@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+zuul:
+  routes:
+    pokemon:
+      url: https://pokeapi.co/api/v2/
+    
