@@ -39,10 +39,9 @@ public class Postfilter extends ZuulFilter {
         HttpServletResponse response = ctx.getResponse();
         // ctx.getResponse().setStatus(500);
         log.info("Response  Status= {}", response.getStatus());
-        log.info("Response  Status= {}", response.getStatus());
 
         // try (InputStream is = ctx.getResponseDataStream()) {
-        //     String respData = new InputStreamReader(is, CharEncoding.UTF_8);
+        //     String respData = CharStreams.toString(new InputStreamReader(is, CharEncoding.UTF_8));
         //     log.info("Response  Data = {}", respData);
         //     ctx.setResponseBody(respData);
         // } catch (IOException ioe) {
