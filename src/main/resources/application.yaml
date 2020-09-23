@@ -3,6 +3,8 @@ server:
 
 zuul:
   routes:
-    pokemon:
-      url: https://pokeapi.co/api/v2/
+    heroes:
+      url: https://microservice-discipline-1.herokuapp.com/heroes
+    countries:
+      url: https://microservice-discipline-2.herokuapp.com/countries
     
